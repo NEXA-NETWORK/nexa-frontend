@@ -37,7 +37,7 @@ The application will be accessible at http://localhost:3000 by default.
 
 ```bash
 REACT_APP_CHAINS_ENV: "mainnet/testnet"
-REACT_APP_API_URL: ""
+REACT_APP_API_URL: "backend url"
 REACT_APP_MORALIS_KEY: "your moralis key"
 REACT_APP_INFURA_KEY: "your infura key"
 ```
