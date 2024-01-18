@@ -1,0 +1,50 @@
+export enum SupportedChainId { // for Non EVM we are putting these Chain IDs to be in negative.
+  TERRA = 202, // for Non EVM we are putting these Chain IDs to be in negative.
+  ETHEREUM = 1,
+  POLYGON = 137,
+  BINANCE = 56,
+  AVAX = 43114,
+  FANTOM = 250,
+  FUJI = 43113,
+  GOERLI = 5,
+  BINANCE_TESTNET = 97,
+  FANTOM_TESTNET = 4002,
+  MUMBAI = 80001,
+  ARBITRUM = 42161,
+  OPTIMISM = 10,
+  ARBITRUM_TESTNET = 421613,
+}
+
+export const CHAIN_IDS_TO_NAMES = {
+  [SupportedChainId.ETHEREUM]: "Ethereum",
+  [SupportedChainId.TERRA]: "Terra",
+  [SupportedChainId.POLYGON]: "Polygon",
+  [SupportedChainId.BINANCE]: "Binance",
+  [SupportedChainId.FANTOM]: "Fantom",
+  [SupportedChainId.AVAX]: "Avax",
+  [SupportedChainId.FUJI]: "Fuji",
+  [SupportedChainId.GOERLI]: "Goerli",
+  [SupportedChainId.BINANCE_TESTNET]: "Binance",
+  [SupportedChainId.FANTOM_TESTNET]: "Fantom testnet",
+  [SupportedChainId.MUMBAI]: "Mumbai",
+  [SupportedChainId.ARBITRUM]: "Arbitrum",
+  [SupportedChainId.OPTIMISM]: "Optimism",
+  [SupportedChainId.ARBITRUM_TESTNET]: "Arbitrum testnet",
+  4: "rinkeby",
+};
+
+export const MORALIS_CHAIN_IDs = {
+  [SupportedChainId.ETHEREUM]: "0x1",
+  [SupportedChainId.POLYGON]: "0x89",
+  [SupportedChainId.BINANCE]: "0x38",
+  [SupportedChainId.FANTOM]: "0xfa",
+  [SupportedChainId.AVAX]: "0xa86a",
+  [SupportedChainId.FUJI]: "0xa869",
+  [SupportedChainId.GOERLI]: "0x5",
+  [SupportedChainId.BINANCE_TESTNET]: "0x61",
+  [SupportedChainId.FANTOM_TESTNET]: "0xfa",
+  [SupportedChainId.MUMBAI]: "0x13881",
+  [SupportedChainId.ARBITRUM]: "0xa4b1",
+  [SupportedChainId.OPTIMISM]: "0xa",
+  [SupportedChainId.ARBITRUM_TESTNET]: "0x66eed",
+}
